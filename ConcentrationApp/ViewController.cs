@@ -1,11 +1,13 @@
 ﻿using System;
-
+using System.Collections.Generic;
 using UIKit;
 
 namespace ConcentrationApp
 {
     public partial class ViewController : UIViewController
-    {
+    { 
+       
+
 
         protected ViewController(IntPtr handle) : base(handle)
         {
