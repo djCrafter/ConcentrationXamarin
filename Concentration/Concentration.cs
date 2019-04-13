@@ -1,15 +1,39 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Concentration
+namespace ConcentrationModel
 {
+    static class MyExtension
+    {
+        public static void Shuffle<T>(this IList<T> list)
+        {
+            Random rng = new Random();
+
+            int n = list.Count;
+            while (n > 1)
+            {
+                n--;
+                int k = rng.Next(n + 1);
+                T value = list[k];
+                list[k] = list[n];
+                list[n] = value;
+            }
+        }
+    }
+   
+
     public class Concentration
     {
-        public int gameScore { get; set; } = 0;
-        public int flipCount { get; set; } = 0;
-        public bool gameOver { get; set; } = false;
-        public int cardInGame { get; set; } = 0;
-        List<Card> cards = new List<Card>();
+
+        private int matches = 0;
+
+        public int gameScore { get; private set; } = 0;
+        public int flipCount { get; private set; } = 0;
+        public bool gameOver { get; private set; } = false;
+        public int cardInGame { get;  private set; } = 0;
+        public List<Card> cards = new List<Card>();
+
+   
 
         private int? indexOfOneAndOnlyFaceUp
         {
@@ -19,18 +43,15 @@ namespace Concentration
                 for(int i = 0; i < cards.Count; ++i)
                 {
                     if(cards[i].isFaceUp)
-                    {
-                        if(foundIndex != null) 
-                        {
-                            foundIndex = i; 
-                        }
-
+                    {                    
+                        foundIndex = i; 
                     }
                 }
                 return foundIndex;
             }
             set
             {
+             
                 for (int i = 0; i < cards.Count; ++i)
                 {
                     cards[i].isFaceUp = (i == value);
@@ -42,43 +63,54 @@ namespace Concentration
         {
            for(int i = 0; i < numberOfPairsOfCards; ++i)
             {
-                cards.Add(new Card());
-                cards.Add(new Card());
+                var card = new Card();
+                cards.Add(card);
+                cards.Add(card.Clone());
             }
 
-            //TO DO: Card Shuffle
+          //  MyExtension.Shuffle(cards);
             cardInGame = cards.Count;
         }
 
 
-        public (int flips, int scores, bool isGameOver) chooseCard(int index) {
-            flipCount += 1;
-            if(!cards[index].isMatched)
+
+        public void chooseCard(int index) {
+            if (!gameOver)
             {
-                int? matchIndex = indexOfOneAndOnlyFaceUp;
-                if(matchIndex != null && matchIndex != index)
+                flipCount += 1;
+                gameScore--;
+                if (!cards[index].isMatched)
                 {
-                    bool flag = true;
-                    if (cards[matchIndex ?? default(int)].identifier == cards[index].identifier)
+                    int? matchIndex = indexOfOneAndOnlyFaceUp;
+                    matches++;
+                    if (matchIndex != null && matchIndex != index)
                     {
-                        cards[matchIndex ?? default(int)].isMatched = true;
-                        gameScore += 2;
-                        cardInGame -= 2;
+                        if (cards[matchIndex ?? default(int)].identifier == cards[index].identifier)
+                        {
+                            cards[matchIndex ?? default(int)].isMatched = true;
+                            cards[index].isMatched = true;
 
-                        if (cardInGame < 2) gameOver = true;
+                            gameScore += 5;
+                            cardInGame -= 2;
 
-                        flag = false;
+                            if (cardInGame < 2) gameOver = true;
+                        }
+                        else
+                        {
+                            if (matches > 1)
+                            {
+                                matches = 0;
+                                indexOfOneAndOnlyFaceUp = null;
+                            }
+                        }
+                        cards[index].isFaceUp = true;
                     }
-
-                    cards[index].isFaceUp = true;
-                    if (flag) gameScore--;
-                }
-                else
-                {
-                    indexOfOneAndOnlyFaceUp = index;
+                    else
+                    {
+                        indexOfOneAndOnlyFaceUp = index;
+                    }
                 }
             }
-  return (flipCount, gameScore, gameOver);
  } 
     }
 }

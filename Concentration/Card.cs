@@ -1,5 +1,6 @@
 ﻿using System;
-namespace Concentration
+
+namespace ConcentrationModel
 {
     public class Card
     {
@@ -11,7 +12,7 @@ namespace Concentration
       
         private static int getUniqueIdentifier()
         {
-            identifierFactory += 1;
+
             return Card.identifierFactory;
         }
 
@@ -30,6 +31,7 @@ namespace Concentration
 
         public Card Clone()
         {
+            identifierFactory += 1;
             return new Card(this);
         }
     }
