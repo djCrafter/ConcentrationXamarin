@@ -1,0 +1,10 @@
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/bin/Debug/netstandard2.0/Concentration.deps.json
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/bin/Debug/netstandard2.0/Concentration.dll
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/bin/Debug/netstandard2.0/Concentration.pdb
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.csprojAssemblyReference.cache
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.csproj.CoreCompileInputs.cache
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.AssemblyInfoInputs.cache
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.AssemblyInfo.cs
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.dll
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/Concentration/obj/Debug/netstandard2.0/Concentration.pdb

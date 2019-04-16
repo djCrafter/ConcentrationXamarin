@@ -1,17 +1,17 @@
 ﻿<Properties StartupConfiguration="{0B118D63-E5CA-4F9B-BA25-B9B7CC5C4974}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Concentration/Concentration.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ConcentrationApp/Main.storyboard">
     <Files>
       <File FileName="ConcentrationApp/Main.storyboard" />
-      <File FileName="Concentration/Concentration.cs" Line="71" Column="15" />
+      <File FileName="Concentration/Concentration.cs" Line="100" Column="31" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ConcentrationApp" expanded="True">
-            <Node name="Concentration" expanded="True">
-              <Node name="Concentration.cs" selected="True" />
+            <Node name="Concentration" expanded="True" />
+            <Node name="ConcentrationApp.IOS" expanded="True">
+              <Node name="Main.storyboard" selected="True" />
             </Node>
-            <Node name="ConcentrationApp.IOS" expanded="True" />
           </Node>
         </State>
       </Pad>

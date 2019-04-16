@@ -1,0 +1,15 @@
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/bin/iPhoneSimulator/Debug/ConcentrationApp.exe
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/bin/iPhoneSimulator/Debug/ConcentrationApp.pdb
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/bin/iPhoneSimulator/Debug/Concentration.dll
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/bin/iPhoneSimulator/Debug/Concentration.pdb
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/ibtool/_BundleResourceWithLogicalName.items
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_PartialAppManifest.items
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/actool/_BundleResourceWithLogicalName.items
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_PartialAppManifest.items
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/coremlc/_BundleResourceWithLogicalName.items
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/device-builds/iphone11.8-12.2/optimized/
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/ConcentrationApp.IOS.csprojAssemblyReference.cache
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/ConcentrationApp.IOS.csproj.CoreCompileInputs.cache
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/ConcentrationApp.IOS.csproj.CopyComplete
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/ConcentrationApp.exe
+/Users/crafter/Documents/GitHub/ConcentrationXamarin/ConcentrationApp/obj/iPhoneSimulator/Debug/ConcentrationApp.pdb
