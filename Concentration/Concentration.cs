@@ -68,7 +68,7 @@ namespace ConcentrationModel
                 cards.Add(card.Clone());
             }
 
-          //  MyExtension.Shuffle(cards);
+            MyExtension.Shuffle(cards);
             cardInGame = cards.Count;
         }
 
@@ -90,7 +90,7 @@ namespace ConcentrationModel
                             cards[matchIndex ?? default(int)].isMatched = true;
                             cards[index].isMatched = true;
 
-                            gameScore += 5;
+                            gameScore += 10;
                             cardInGame -= 2;
 
                             if (cardInGame < 2) gameOver = true;

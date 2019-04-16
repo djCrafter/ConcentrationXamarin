@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{0B118D63-E5CA-4F9B-BA25-B9B7CC5C4974}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Concentration/Concentration.cs">
+    <Files>
+      <File FileName="ConcentrationApp/Main.storyboard" />
+      <File FileName="Concentration/Concentration.cs" Line="71" Column="15" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ConcentrationApp" expanded="True">
+            <Node name="Concentration" expanded="True">
+              <Node name="Concentration.cs" selected="True" />
+            </Node>
+            <Node name="ConcentrationApp.IOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.ItemProperties.ConcentrationApp.IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.51D4DCEC-4E3B-4A45-AEFA-A20817F24ECA" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
